@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Deudas - Finanzas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #2c3e50 0%, #4a69bd 100%);
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 3rem 4rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .emoji {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            color: #ccc;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #888;
+            border-left: 4px solid #e74c3c;
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .strategies {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+        }
+
+        .strategies h3 {
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+
+        .strategy {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            color: #ddd;
+        }
+
+        .strategy-icon {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+        }
+
+        .strategy-text {
+            font-size: 0.95rem;
+        }
+
+        .btn-volver {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.8rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .btn-volver:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">⛓️</div>
+        <h1>Las Deudas</h1>
+        <p>
+            Las deudas pueden ser cadenas que nos atan o herramientas que nos impulsan.
+            La diferencia está en cómo las manejamos.
+        </p>
+        <p class="quote">
+            "Una deuda es como una trampa: fácil de entrar, difícil de salir."
+        </p>
+        <div class="strategies">
+            <h3>🛡️ Estrategias para liberarte</h3>
+            <div class="strategy">
+                <span class="strategy-icon">❄️</span>
+                <span class="strategy-text"><strong>Método avalancha:</strong> Paga primero las deudas con mayor interés</span>
+            </div>
+            <div class="strategy">
+                <span class="strategy-icon">⛄</span>
+                <span class="strategy-text"><strong>Método bola de nieve:</strong> Paga primero las deudas más pequeñas</span>
+            </div>
+            <div class="strategy">
+                <span class="strategy-icon">🔄</span>
+                <span class="strategy-text"><strong>Consolidación:</strong> Unifica tus deudas en una sola con menor interés</span>
+            </div>
+        </div>
+        <p>
+            Salir de las deudas requiere disciplina y paciencia. Cada pago 
+            te acerca más a tu libertad financiera.
+        </p>
+        <a href="oscuridad.html" class="btn-volver">← Volver a La Oscuridad</a>
+    </div>
+</body>
+</html>

@@ -73,6 +73,29 @@
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
         }
+
+        .sub-pages {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            justify-content: center;
+        }
+
+        .btn-sub {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: linear-gradient(135deg, #9c27b0 0%, #7b1fa2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .btn-sub:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(156, 39, 176, 0.4);
+        }
     </style>
 </head>
 <body>
@@ -92,6 +115,10 @@
             La oscuridad nos enseña paciencia, resiliencia y la importancia de 
             prepararnos para los tiempos inciertos.
         </p>
+        <div class="sub-pages">
+            <a href="deudas.html" class="btn-sub">⛓️ Las Deudas</a>
+            <a href="crisis.html" class="btn-sub">🌪️ La Crisis</a>
+        </div>
         <a href="index.html" class="btn-volver">← Volver</a>
     </div>
 </body>
