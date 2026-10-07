@@ -8,7 +8,7 @@ name: DocOps - Preview docs changes on PR
 
 on:
   pull_request:
-    branches: [main]
+    branches: [master]
 
 permissions:
   contents: read

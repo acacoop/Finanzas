@@ -22,7 +22,7 @@ name: DocOps - Sync docs to Confluence
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 permissions:
   contents: read
